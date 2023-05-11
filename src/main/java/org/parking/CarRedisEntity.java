@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@RedisHash
+@RedisHash("car")
 @Getter
 @Setter
 @AllArgsConstructor

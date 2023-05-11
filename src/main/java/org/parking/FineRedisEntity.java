@@ -7,7 +7,7 @@ import org.springframework.data.redis.core.RedisHash;
 
 import lombok.*;
 
-@RedisHash
+@RedisHash("fine")
 @Getter
 @Setter
 @AllArgsConstructor
